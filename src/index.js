@@ -6,7 +6,7 @@ export default class Text extends Component {
 
     static propTypes = {
         dictionaryKey: PropTypes.string.isRequired,
-        tag: PropTypes.oneOfType([PropTypes.string, PropTypes.node]),
+        tag: PropTypes.oneOfType([PropTypes.string, PropTypes.func]),
         args: PropTypes.arrayOf(PropTypes.any)
     }
 
